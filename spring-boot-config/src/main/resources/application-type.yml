@@ -1,0 +1,48 @@
+megvii:
+  sex: true
+  #单个属性
+  serverHost: 39.106.227.136
+
+  #List属性
+  wareHouseIds:
+    - 1
+    - 2
+    - 3
+    - 4
+
+  #map属性
+  zoneInfo:
+    palletLoad: {zoneId: 49,face: 2,stationId: 1}
+    palletDown: {zoneId: 48,face: 2,stationId: 2}
+    palletTrans: {zoneId: 1241,face: 0,stationId: 3}
+    goodLoad1: {zoneId: 35,face: 2,stationId: 4}
+    goodLoad2: {zoneId: 15,face: 2,stationId: 5}
+    chargeDown1: {zoneId: 49,face: 2,stationId: 1}
+
+  robotInfo:
+    - {frameId: 1,zoneId: 1,face: 1}
+    - {frameId: 2,zoneId: 2,face: 1}
+    - {frameId: 3,zoneId: 2,face: 1}
+
+  person:
+    sex: false
+    flows:
+      a:
+        - naafsd
+        - bdfdfs
+        - lasdfsadf
+      b:
+        - sfda
+        - adfas
+        - aaaaaa
+    wares:
+      - 1
+      - 2
+      - 3
+      - 4
+    nodes:
+      a:
+        - {frameId: 1,zoneId: 1,face: 1}
+        - {frameId: 3,zoneId: 1,face: 1}
+      b:
+        - {frameId: 2,zoneId: 1,face: 1}

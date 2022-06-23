@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sanguo.mybatis.mapper.UserMapper">
+	<resultMap id="UserAllResultMap" type="com.sanguo.mybatis.domain.User">
+		<result column="id" property="id" />
+		<result column="user_name" property="userName" />
+		<result column="password" property="password" />
+        <result column="sex" property="sex" javaType="com.sanguo.mybatis.domain.enums.SexEnum"/>
+	</resultMap>
+
+	<parameterMap id="User" type="com.sanguo.mybatis.domain.User"/>
+
+	<sql id="All_Column_List">
+		id, user_name, password,weight,sex
+	</sql>
+
+	<select id="findById" resultMap="UserAllResultMap" parameterType="java.lang.String">
+		select
+		<include refid="All_Column_List" />
+		from tbl_user
+		where id = #{id}
+	</select>
+
+    <insert id="insert" parameterType="com.sanguo.mybatis.domain.User" >
+       INSERT INTO
+       		tbl_user
+       		(user_name,password,weight,sex)
+       	VALUES
+       		(#{userName}, #{password},#{weight},#{sex})
+    </insert>
+
+    <update id="update" parameterType="com.sanguo.mybatis.domain.User" >
+        UPDATE
+        tbl_user
+        SET
+        <if test="userName != null">user_name= #{userName},</if>
+        <if test="password != null">password = #{password},</if>
+        <if test="password != null">sex = #{sex},</if>
+        <if test="weight != null">weight= #{weight}</if>
+        WHERE
+        id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="java.lang.String" >
+       DELETE FROM
+       		 tbl_user
+       WHERE
+       		 id =#{id}
+    </delete>
+</mapper>

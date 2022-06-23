@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/lvbu-springboot.iml" filepath="$PROJECT_DIR$/.idea/lvbu-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" filepath="$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-kafka/spring-boot-kafka.iml" filepath="$PROJECT_DIR$/spring-boot-kafka/spring-boot-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-logback/spring-boot-logback.iml" filepath="$PROJECT_DIR$/spring-boot-logback/spring-boot-logback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-multi-soruce/spring-boot-mybatis-multi-soruce.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-multi-soruce/spring-boot-mybatis-multi-soruce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-quick-start/spring-boot-quick-start.iml" filepath="$PROJECT_DIR$/spring-boot-quick-start/spring-boot-quick-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" filepath="$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-web/spring-boot-web.iml" filepath="$PROJECT_DIR$/spring-boot-web/spring-boot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-web-intercept/spring-boot-web-intercept.iml" filepath="$PROJECT_DIR$/spring-boot-web-intercept/spring-boot-web-intercept.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-zookeeper/spring-boot-zookeeper.iml" filepath="$PROJECT_DIR$/spring-boot-zookeeper/spring-boot-zookeeper.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-zookeeper" />
+        <module name="spring-boot-kafka" />
+        <module name="spring-boot-logback" />
+        <module name="spring-boot-mybatis" />
+        <module name="spring-boot-jpa" />
+        <module name="spring-boot-config" />
+        <module name="spring-boot-web" />
+        <module name="spring-boot-elasticsearch" />
+        <module name="spring-boot-redis" />
+        <module name="spring-boot-web-intercept" />
+        <module name="spring-boot-quick-start" />
+        <module name="spring-boot-mybatis-multi-soruce" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lvbu-springboot" target="1.5" />
+      <module name="spring-boot-config" target="1.8" />
+      <module name="spring-boot-elasticsearch" target="1.5" />
+      <module name="spring-boot-jpa" target="1.8" />
+      <module name="spring-boot-kafka" target="1.8" />
+      <module name="spring-boot-logback" target="1.8" />
+      <module name="spring-boot-mybatis" target="1.8" />
+      <module name="spring-boot-mybatis-baomidou" target="1.8" />
+      <module name="spring-boot-mybatis-multi-soruce" target="1.8" />
+      <module name="spring-boot-quick-start" target="1.8" />
+      <module name="spring-boot-redis" target="1.8" />
+      <module name="spring-boot-web" target="1.8" />
+      <module name="spring-boot-web-intercept" target="1.8" />
+      <module name="spring-boot-zookeeper" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-elasticsearch" options="" />
+    </option>
+  </component>
+</project>

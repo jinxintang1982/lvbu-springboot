@@ -1,0 +1,21 @@
+complex:
+  flows:
+    a:
+      - naafsd
+      - bdfdfs
+      - lasdfsadf
+    b:
+      - sfda
+      - adfas
+      - aaaaaa
+  wares:
+    - 1
+    - 2
+    - 3
+    - 4
+  nodes:
+    a:
+      - {frameId: 1,zoneId: 1,face: 1}
+      - {frameId: 3,zoneId: 1,face: 1}
+    b:
+      - {frameId: 2,zoneId: 1,face: 1}
