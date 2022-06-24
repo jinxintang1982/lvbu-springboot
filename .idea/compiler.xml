@@ -7,17 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-zookeeper" />
+        <module name="spring-boot-elasticsearch" />
         <module name="spring-boot-kafka" />
-        <module name="spring-boot-logback" />
+        <module name="spring-boot-restTemplate" />
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-jpa" />
         <module name="spring-boot-config" />
-        <module name="spring-boot-web" />
-        <module name="spring-boot-elasticsearch" />
-        <module name="spring-boot-redis" />
-        <module name="spring-boot-web-intercept" />
-        <module name="spring-boot-quick-start" />
+        <module name="spring-boot-logback" />
         <module name="spring-boot-mybatis-multi-soruce" />
+        <module name="spring-boot-web" />
+        <module name="spring-boot-redis" />
+        <module name="spring-boot-quick-start" />
+        <module name="spring-boot-web-intercept" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,7 @@
       <module name="spring-boot-mybatis-multi-soruce" target="1.8" />
       <module name="spring-boot-quick-start" target="1.8" />
       <module name="spring-boot-redis" target="1.8" />
+      <module name="spring-boot-restTemplate" target="1.8" />
       <module name="spring-boot-web" target="1.8" />
       <module name="spring-boot-web-intercept" target="1.8" />
       <module name="spring-boot-zookeeper" target="1.8" />

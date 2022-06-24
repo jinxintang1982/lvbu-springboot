@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-multi-soruce/spring-boot-mybatis-multi-soruce.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-multi-soruce/spring-boot-mybatis-multi-soruce.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-quick-start/spring-boot-quick-start.iml" filepath="$PROJECT_DIR$/spring-boot-quick-start/spring-boot-quick-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" filepath="$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-restTemplate/spring-boot-restTemplate.iml" filepath="$PROJECT_DIR$/spring-boot-restTemplate/spring-boot-restTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web/spring-boot-web.iml" filepath="$PROJECT_DIR$/spring-boot-web/spring-boot-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web-intercept/spring-boot-web-intercept.iml" filepath="$PROJECT_DIR$/spring-boot-web-intercept/spring-boot-web-intercept.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-zookeeper/spring-boot-zookeeper.iml" filepath="$PROJECT_DIR$/spring-boot-zookeeper/spring-boot-zookeeper.iml" />
