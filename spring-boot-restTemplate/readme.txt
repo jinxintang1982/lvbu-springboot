@@ -1,0 +1,2 @@
+PoolingHttpClientConnectionManager维护的连接数在每个路由基础和总数上都有限制。
+默认，每个路由基础上的连接不超过2个，总连接数不能超过20。
