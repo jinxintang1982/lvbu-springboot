@@ -3,7 +3,6 @@ package com.sanguo.springboot.utils;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
 import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -55,9 +54,7 @@ public class RestTemplateConfig {
 
         //HttpClientBuilder中的构造方法被protected修饰，所以这里不能直接使用new来实例化一个HttpClientBuilder，可以使用HttpClientBuilder提供的静态方法create()来获取HttpClientBuilder对象
         HttpClientBuilder httpClientBuilder = HttpClientBuilder.create();
-
         httpClientBuilder.setConnectionManager(httpClientConnectionManager);
-
         return httpClientBuilder;
     }
 
