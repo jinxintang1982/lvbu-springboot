@@ -41,6 +41,7 @@
         <module>spring-boot-kafka</module>
         <module>spring-boot-elasticsearch</module>
         <module>spring-boot-restTemplate</module>
+        <module>spring-boot-event</module>
     </modules>
 
 </project>

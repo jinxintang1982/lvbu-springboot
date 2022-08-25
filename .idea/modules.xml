@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/lvbu-springboot.iml" filepath="$PROJECT_DIR$/.idea/lvbu-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" filepath="$PROJECT_DIR$/spring-boot-config/spring-boot-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" filepath="$PROJECT_DIR$/spring-boot-elasticsearch/spring-boot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-event/spring-boot-event.iml" filepath="$PROJECT_DIR$/spring-boot-event/spring-boot-event.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" filepath="$PROJECT_DIR$/spring-boot-jpa/spring-boot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-kafka/spring-boot-kafka.iml" filepath="$PROJECT_DIR$/spring-boot-kafka/spring-boot-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-logback/spring-boot-logback.iml" filepath="$PROJECT_DIR$/spring-boot-logback/spring-boot-logback.iml" />
