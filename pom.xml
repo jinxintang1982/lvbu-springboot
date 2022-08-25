@@ -42,6 +42,7 @@
         <module>spring-boot-elasticsearch</module>
         <module>spring-boot-restTemplate</module>
         <module>spring-boot-event</module>
+        <module>spring-boot-threadPool</module>
     </modules>
 
 </project>

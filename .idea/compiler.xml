@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-threadPool" />
         <module name="spring-boot-logback" />
         <module name="spring-boot-zookeeper" />
         <module name="spring-boot-event" />
@@ -36,6 +37,7 @@
       <module name="spring-boot-quick-start" target="1.8" />
       <module name="spring-boot-redis" target="1.8" />
       <module name="spring-boot-restTemplate" target="1.8" />
+      <module name="spring-boot-threadPool" target="1.8" />
       <module name="spring-boot-web" target="1.8" />
       <module name="spring-boot-web-intercept" target="1.8" />
       <module name="spring-boot-zookeeper" target="1.8" />
