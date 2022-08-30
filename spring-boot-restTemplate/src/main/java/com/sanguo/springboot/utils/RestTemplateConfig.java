@@ -1,7 +1,7 @@
 package com.sanguo.springboot.utils;
 
+import org.apache.http.client.HttpClient;
 import org.apache.http.client.config.RequestConfig;
-import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -65,7 +65,7 @@ public class RestTemplateConfig {
      * @return
      */
     @Bean(name = "httpClient")
-    public CloseableHttpClient getCloseableHttpClient(@Qualifier("httpClientBuilder") HttpClientBuilder httpClientBuilder) {
+    public HttpClient getCloseableHttpClient(@Qualifier("httpClientBuilder") HttpClientBuilder httpClientBuilder) {
         return httpClientBuilder.build();
     }
 

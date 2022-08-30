@@ -1,5 +1,8 @@
 package com.sanguo.springboot.utils;
 
+import org.apache.http.client.HttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.http.*;
 import org.springframework.http.client.ClientHttpRequestFactory;
@@ -120,9 +123,40 @@ public class HttpUtil {
     }
 
     private static ClientHttpRequestFactory httpRequestFactory() {
+
+        HttpClientBuilder httpClientBuilder =  HttpClientBuilder.create();
+
+        PoolingHttpClientConnectionManager httpClientConnectionManager = new PoolingHttpClientConnectionManager();
+        //总连接数
+        httpClientConnectionManager.setMaxTotal(10);
+        //单录音并发数
+        httpClientConnectionManager.setDefaultMaxPerRoute(5);
+        httpClientBuilder.setConnectionManager(httpClientConnectionManager);
+        HttpClient httpClient = httpClientBuilder.build();
+
+        HttpComponentsClientHttpRequestFactory factory = new HttpComponentsClientHttpRequestFactory(httpClient);
+        factory.setHttpClient(httpClient);
+        //设置超时时长
+        factory.setConnectionRequestTimeout(10 * 1000);
+        factory.setReadTimeout(10 * 1000);
+        factory.setConnectTimeout(10 * 1000);
+
+        return factory;
+    }
+
+    private static ClientHttpRequestFactory httpRequestFactory2() {
+        HttpClientBuilder httpClientBuilder =  HttpClientBuilder.create();
+        httpClientBuilder.setMaxConnTotal(10);
+        httpClientBuilder.setMaxConnPerRoute(5);
+        HttpClient httpClient = httpClientBuilder.build();
         HttpComponentsClientHttpRequestFactory factory = new HttpComponentsClientHttpRequestFactory();
-        factory.setConnectTimeout(6000); // 连接超时，毫秒
-        factory.setReadTimeout(6000); // 读写超时，毫秒
+        factory.setHttpClient(httpClient);
+
+        //设置超时时长
+        factory.setConnectionRequestTimeout(10 * 1000);
+        factory.setReadTimeout(10 * 1000);
+        factory.setConnectTimeout(10 * 1000);
+
         return factory;
     }
 }

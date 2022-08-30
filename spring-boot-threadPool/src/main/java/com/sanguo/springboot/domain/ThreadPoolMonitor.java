@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 
 @Service
-public class PrintPoolData {
+public class ThreadPoolMonitor {
 
     private static final Logger logger = LoggerFactory.getLogger(Application.class);
 

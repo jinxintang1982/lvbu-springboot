@@ -27,7 +27,6 @@ public class Application {
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
-
             logger.info("spring init finish");
             for (int i = 0; i < 10; i++) {
                 asyncStepService.exeStepAsync();
