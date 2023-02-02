@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+#也可以选择打开部分
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+h2service:
+  ip: '131.12.1.4'
+  port: '8080'

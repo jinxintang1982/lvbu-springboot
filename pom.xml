@@ -43,6 +43,7 @@
         <module>spring-boot-restTemplate</module>
         <module>spring-boot-event</module>
         <module>spring-boot-threadPool</module>
+        <module>spring-boot-actuator</module>
     </modules>
 
 </project>
