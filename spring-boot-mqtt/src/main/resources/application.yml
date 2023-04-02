@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+
+mqtt:
+  url: tcp://172.17.218.94:1883
+  username: admin
+  password: public
+  clientId: mqtt-sender

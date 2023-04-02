@@ -44,6 +44,8 @@
         <module>spring-boot-event</module>
         <module>spring-boot-threadPool</module>
         <module>spring-boot-actuator</module>
+        <module>spring-boot-mqtt</module>
+
     </modules>
 
 </project>

@@ -2,16 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-threadPool" />
         <module name="spring-boot-logback" />
-        <module name="spring-boot-web-intercept" />
         <module name="spring-boot-zookeeper" />
         <module name="spring-boot-actuator" />
-        <module name="spring-boot-mybatis-multi-soruce" />
+        <module name="spring-boot-redis" />
+        <module name="spring-boot-web-intercept" />
         <module name="spring-boot-quick-start" />
         <module name="spring-boot-jpa" />
         <module name="spring-boot-event" />
@@ -21,7 +22,8 @@
         <module name="spring-boot-kafka" />
         <module name="spring-boot-web" />
         <module name="spring-boot-mybatis" />
-        <module name="spring-boot-redis" />
+        <module name="spring-boot-mybatis-multi-soruce" />
+        <module name="spring-boot-mqtt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +35,7 @@
       <module name="spring-boot-jpa" target="1.8" />
       <module name="spring-boot-kafka" target="1.8" />
       <module name="spring-boot-logback" target="1.8" />
+      <module name="spring-boot-mqtt" target="1.5" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-baomidou" target="1.8" />
       <module name="spring-boot-mybatis-multi-soruce" target="1.8" />
