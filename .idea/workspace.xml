@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ace8b356-4d2f-4e1b-967a-05625db7525f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-config/target/classes/com/sanguo/srpingboot/configuration/HomeProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-quick-start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-quick-start/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-quick-start/spring-boot-quick-start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-quick-start/spring-boot-quick-start.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/MqttConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/OutMqttConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/InMqttConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttInboundMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttInboundMessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mqtt/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mqtt/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/spring-boot-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-elasticsearch/target/" />
@@ -45,11 +42,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/domain/MqttProperties.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/InMqttConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="220">
+              <caret line="31" column="116" selection-start-line="31" selection-start-column="107" selection-end-line="31" selection-end-column="116" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1762#1763#0" expanded="true" />
+                <element signature="e#1804#1805#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/controller/SendController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,10 +69,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/MqttConfig.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/OutMqttConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+            <state relative-caret-position="542">
+              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,14 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttConfig.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="154">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -96,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttInboundMessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,10 +145,13 @@
       <find>zhaoyun</find>
       <find>lombok</find>
       <find>lombo</find>
-      <find>mqttOutboundChannel</find>
       <find>MqttProperties</find>
       <find>MqttConfig</find>
       <find>url</find>
+      <find>mqttOutboundChannel</find>
+      <find>mqttInboundChannel</find>
+      <find>mqttClientFactory</find>
+      <find>zcz/reply</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -152,10 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-multi-soruce/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-logback/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-elasticsearch/pom.xml" />
@@ -196,13 +203,17 @@
         <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/domain/MqttTemplate.java" />
         <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/domain/MqttConfig.java" />
-        <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttInboundMessageHandler.java" />
         <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/MqttTemplate.java" />
-        <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/Application.java" />
         <option value="$PROJECT_DIR$/spring-boot-mqtt/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttConfig.java" />
         <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/domain/MqttProperties.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/MqttInboundConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/MqttConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttInboundMessageHandler.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/OutMqttConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/controller/SendController.java" />
       </list>
     </option>
   </component>
@@ -223,10 +234,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1944" />
-    <option name="height" value="1044" />
+    <option name="x" value="-7" />
+    <option name="width" value="1932" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -275,6 +285,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lvbu-springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lvbu-springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mqtt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lvbu-springboot" type="b2602c69:ProjectViewProjectNode" />
@@ -346,21 +366,22 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\01mySpace\04Code\03.myCreate\lvbu-springboot" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="com.sanguo.test.springboot" />
-      <recent name="com.sanguo.springboot.domain" />
-      <recent name="com.sanguo.springboot" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\01mySpace\04Code\03.myCreate\lvbu-springboot\spring-boot-mqtt" />
       <recent name="C:\01mySpace\04Code\03.myCreate\lvbu-springboot" />
       <recent name="C:\01mySpace\04Code\03.myCreate\lvbu-springboot\spring-boot-mqtt\src\main\resources" />
       <recent name="C:\01mySpace\04Code\03.myCreate\lvbu-springboot\spring-boot-event\src\main\java" />
       <recent name="C:\01mySpace\04Code\03.myCreate\lvbu-springboot\spring-boot-restTemplate\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sanguo.springboot.publish" />
+      <recent name="" />
+      <recent name="com.sanguo.test.springboot" />
+      <recent name="com.sanguo.springboot.domain" />
+      <recent name="com.sanguo.springboot" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\01mySpace\04Code\03.myCreate\lvbu-springboot" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -456,6 +477,7 @@
       <workItem from="1680398028384" duration="5021000" />
       <workItem from="1680408481541" duration="45000" />
       <workItem from="1680423458710" duration="644000" />
+      <workItem from="1680442301399" duration="3774000" />
     </task>
     <servers />
   </component>
@@ -471,13 +493,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74836000" />
+    <option name="totallyTimeSpent" value="78610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.690629" visible="true" weight="0.26599148" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.690629" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="1" sideWeight="0.309371" side_tool="true" weight="0.21002132" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -493,14 +515,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18221258" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30911064" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.29284164" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.23427331" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.329718" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.23969631" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.318872" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.14392324" />
@@ -597,26 +619,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/http/client/HttpComponentsClientHttpRequestFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3388">
-          <caret line="199" column="34" selection-start-line="199" selection-start-column="34" selection-end-line="199" selection-end-column="34" />
-          <folding>
-            <element signature="e#2695#2696#0" expanded="true" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#3035#3036#0" expanded="true" />
-            <element signature="e#3070#3071#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-restTemplate/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-restTemplate/src/main/java/com/sanguo/springboot/utils/RestTemplateConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -870,16 +872,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/domain/MqttProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="242">
           <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -887,15 +882,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/MqttConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/MqttInboundConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/MqttTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -907,22 +895,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttInboundMessageHandler.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttInboundMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/MqttConfig.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/publish/OutMqttConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="542">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/controller/SendController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mqtt/src/main/java/com/sanguo/springboot/subscribe/InMqttConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="31" column="116" selection-start-line="31" selection-start-column="107" selection-end-line="31" selection-end-column="116" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1804#1805#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -16,7 +16,7 @@ import org.springframework.messaging.MessageHandler;
 
 @Configuration
 @IntegrationComponentScan
-public class MqttConfig {
+public class OutMqttConfig {
     @Autowired
     private MqttProperties prop;
 
@@ -38,13 +38,13 @@ public class MqttConfig {
     @ServiceActivator(inputChannel = "mqttOutboundChannel")
     public MessageHandler mqttOutbound(MqttPahoClientFactory mqttClientFactory) {
         MqttPahoMessageHandler messageHandler = new MqttPahoMessageHandler(
-                prop.getClientId() + "-pub-" +"001", mqttClientFactory);
+                prop.getClientId() + "-pub-", mqttClientFactory);
         messageHandler.setAsync(true);
         messageHandler.setDefaultRetained(false);
         messageHandler.setAsyncEvents(false);
         // Exactly Once
         messageHandler.setDefaultQos(2);
-        messageHandler.setDefaultTopic("ApiConst.MQTT_TOPIC_SUFFIX");//ApiConst.MQTT_TOPIC_SUFFIX
+        messageHandler.setDefaultTopic("zcz/send");//ApiConst.MQTT_TOPIC_SUFFIX
         return messageHandler;
     }
 
